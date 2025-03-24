@@ -237,15 +237,16 @@ This       &JSColorClass
   c.AddQRecord('ButtonText'              , COLOR:BTNTEXT                 )
   c.AddQRecord('InactiveCaptionText'     , COLOR:INACTIVECAPTIONTEXT     )
   c.AddQRecord('ButtonHighlight'         , COLOR:BTNHIGHLIGHT            )
-  c.AddQRecord('3DDkShadow'              , COLOR:3DDkShadow              )
-  c.AddQRecord('3DLight'                 , COLOR:3DLight                 )
-  c.AddQRecord('InfoText'                , COLOR:InfoText                )
-  c.AddQRecord('InfoBackground'          , COLOR:InfoBackground          )
-  c.AddQRecord('HotLight'                , COLOR:HotLight                )
-  c.AddQRecord('GradientActiveCaption'   , COLOR:GradientActiveCaption   )
-  c.AddQRecord('GradientInactiveCaption' , COLOR:GradientInactiveCaption )
-  c.AddQRecord('MenuHighlight'           , COLOR:MenuHighlight           )
-
+  COMPILE('**C11.1**',_C111_)
+    c.AddQRecord('3DDkShadow'              , COLOR:3DDkShadow              )
+    c.AddQRecord('3DLight'                 , COLOR:3DLight                 )
+    c.AddQRecord('InfoText'                , COLOR:InfoText                )
+    c.AddQRecord('InfoBackground'          , COLOR:InfoBackground          )
+    c.AddQRecord('HotLight'                , COLOR:HotLight                )
+    c.AddQRecord('GradientActiveCaption'   , COLOR:GradientActiveCaption   )
+    c.AddQRecord('GradientInactiveCaption' , COLOR:GradientInactiveCaption )
+    c.AddQRecord('MenuHighlight'           , COLOR:MenuHighlight           )
+  !**C11.1**
 
 c.AddQRecord PROCEDURE(STRING pText,LONG pColor)
 

@@ -50,7 +50,7 @@ Fine    EQUATE(3)
 JCF     JSClassyFuncs
    CODE
      
-  C = COLOR:SkyBlue            !Setting a default color
+  C = COLOR:Blue               !Setting a default color
   IF ColorExplorer(C,)         !Passing it to the ColorExplorer
     MESSAGE(JCF.Hex(C,8))                !User selected a color
   END
